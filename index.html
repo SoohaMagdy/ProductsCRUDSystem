@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <title>Products CRUD System</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="form-group my-5">
+            <h3 class="text-info">Search a product : </h3>
+            <input id="searchInp" class="form-control w-50">
+            <div class="row" id="SearchData">
+            </div>
+        </div>
+        <h3 class="text-info">Add a product : </h3>
+        <div class="border p-3">
+            <div class="form-group">
+                <label>Product Name : </label>
+                <input id="productName" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Product Company : </label>
+                <input id="productCompany" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Product Price : </label>
+                <input id="productPrice" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Product Description : </label>
+                <textarea id="productDesc" class="form-control"></textarea>
+            </div>
+            <button id="addBtn" class="btn btn-info ml-auto">Add Product</button>
+        </div>
+
+        <div class="row" id="rowData">
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/session1.js"></script>
+
+</body>
+
+</html>
